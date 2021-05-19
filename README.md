@@ -30,7 +30,7 @@ Below is only Russian.
 - Установить там же расширение [Auto Build Marlin Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MarlinFirmware.auto-build).
 - Скачать исходники Marlin 2.0.7.2 [с их страницы на гитхабе](https://github.com/MarlinFirmware/Marlin/releases/tag/2.0.7.2) (там надо скачатть Sourse code.zip)
 - Распаковать их (Например в `c:\sources\marlin`)
-- Скопировать файлы `Configuration.h` и `Configuration_avd.h` в папку`Marlin`, которая находится в папке, которую вы только что создали. (Например в `c:\sources\marlin\Marlin`)
+- Скопировать файлы `Configuration.h` и `Configuration_avd.h` из этого репозитория в папку`Marlin` с заменой, которая находится в папке, которую вы только что создали. (Например в `c:\sources\marlin\Marlin`)
 - Дальше следовать инструкции из [Auto Build Marlin](https://marlinfw.org/docs/basics/auto_build_marlin.html).
 
 ## Как установить прошивку?

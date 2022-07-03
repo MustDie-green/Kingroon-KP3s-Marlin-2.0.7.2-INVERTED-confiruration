@@ -21,20 +21,20 @@ Below is only Russian.
 - Конфигурация под драйвера A4988, по идее должна работать с драйверами TMC2225
 - После установки прошивки вам лучше сделать калибровку PID (про это и установку прошивки есть в видео https://www.youtube.com/watch?v=zCykGT77myQ)
 - Если экран у вас повернут в одной ориентации, а сенсор как будто в другой, то зажмите пальцем на несколько секунд в любую пустую область, это должно включить калибровку
-- Конфигурация под версию MArlin 2.0.7.2. Вы можете переделать этот конфиг под актуальную версию, я бы это сделал, но мне пока влом.
+- Конфигурация под версию Marlin 2.0.7.2. Вы можете переделать этот конфиг под актуальную версию, я бы это сделал, но мне пока влом.
 
 ## Что делать с файлом конфигурации? (Как собрать прошивку Marlin)
 Инструкция переведена и дополнена из того же репозитория по ссылке выше
 - Установить [Visual Studio Code](https://code.visualstudio.com/Download)
 - Установить в нем расширение [PlatformIO Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)
 - Установить там же расширение [Auto Build Marlin Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MarlinFirmware.auto-build).
-- Скачать исходники Marlin 2.0.7.2 [с их страницы на гитхабе](https://github.com/MarlinFirmware/Marlin/releases/tag/2.0.7.2) (там надо скачатть Sourse code.zip)
+- Скачать исходники Marlin 2.0.7.2 [с их страницы на гитхабе](https://github.com/MarlinFirmware/Marlin/releases/tag/2.0.7.2) (там надо скачать Sourсe code.zip)
 - Распаковать их (Например в `c:\sources\marlin`)
-- Скопировать файлы `Configuration.h` и `Configuration_avd.h` из этого репозитория в папку`Marlin` с заменой, которая находится в папке, которую вы только что создали. (Например в `c:\sources\marlin\Marlin`)
+- Скопировать файлы `Configuration.h` и `Configuration_avd.h` из этого репозитория в папку `Marlin` с заменой, которая находится в папке, которую вы только что создали. (Например в `c:\sources\marlin\Marlin`)
 - Дальше следовать инструкции из [Auto Build Marlin](https://marlinfw.org/docs/basics/auto_build_marlin.html).
 
 ## Как установить прошивку?
-- После компилляции прошивки идите в папку `<папка с исходниками прошики>\.pio\build\mks_robin_nano35\Robin_nano35.bin`, копируйте этот файл на вашу Micro SD карту
+- После компилляции прошивки идите в папку `<папка с исходниками прошвики>\.pio\build\mks_robin_nano35\Robin_nano35.bin`, копируйте этот файл на вашу Micro SD карту
 - Переименуйте файл в robin_nano.bin
 - Дальше по видео https://www.youtube.com/watch?v=zCykGT77myQ
 
